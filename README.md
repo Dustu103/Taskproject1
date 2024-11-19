@@ -1,7 +1,9 @@
 # Firestore CRUD Project
 
 This project demonstrates a simple CRUD application using Firebase Firestore, Node.js, and a Bootstrap front-end. It allows users to create, read, update, and delete profiles.
-
+## Setup Instructions
+    for firebase setup plesae create a firebase project . open firestore database. open setting . go to project setting ->Service accounts-> generate a new private key . a json file will be created or downloaded . replace the content of serviceKey.json file with this new content
+    
 ## Features
 - **API Endpoints**:
   - `POST /users`: Create a new user profile.
@@ -22,4 +24,3 @@ This project demonstrates a simple CRUD application using Firebase Firestore, No
    - Download the service account key JSON file for your project.
 3. **Postman**: For testing API endpoints (optional).
 
-## Setup Instructions
