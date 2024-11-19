@@ -29,6 +29,7 @@ app.post("/users", async (req, res) => {
 
 // GET /users
 app.get("/users", async (req, res) => {
+    console.log("get reach")
   try {
     const snapshot = await usersCollection.get();
     const users = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
